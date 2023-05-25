@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+.cabeca {
+    margin: 30px 75px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    max-width: 100%;
+}
+
+.logo h1 {
+    color: #C92071;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+input {
+    font-size: 1rem;
+    position: relative;
+    padding: 15px;
+    width: 600px;
+    border-radius: 5px;
+    background-color: #F5F5F5;
+    border: none;
+    background-image: url(imagens/Search.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+
+input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+header a {
+    text-decoration: underline;
+    color:#474747;
+}
+
+header button {
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #C92071;
+    color: #fff;
+    transition: all 150ms ease-in-out;
+    color: #fff;
+    font-size: 1rem;
+    letter-spacing: .10rem;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    text-align: center;
+    display: flex;
+}
+
+header button:hover {
+    background-color: #ba1e69;
+}
+
+
+
+.navbar {
+    margin: 30px 95px;
+    padding-top: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #474747;
+    text-transform: none;
+    transition: 300ms ease-in;
+    
+}
+
+.navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.navbar ul li {
+    text-decoration: none;
+    margin: 0 0.75em 0 0.75em;
+}
+
+.navbar ul a:hover {
+    color: #C92071;
+    box-shadow: 0 2px 0 0 #C92071;
+}
