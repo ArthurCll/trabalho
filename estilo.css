@@ -74,6 +74,7 @@ button {
     align-items: center;
     text-align: center;
     transition: 400ms ease-in-out;
+    cursor: pointer;
 }
 
 button:hover {
@@ -119,4 +120,89 @@ button:hover {
     color: #C92071;
     box-shadow: 0 2px 0 0 #C92071;
     font-weight: 700;
+}
+
+section {
+    background-color: var(--light-gray-3);
+    margin-bottom: 20px;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+
+.text {
+    margin: 42px -190px 30px 104px;
+}
+
+.text span {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: var(--warning);
+    padding-bottom: 20px;
+}
+
+.text h1 {
+    font-size: 64px;
+    font-synthesis: 800;
+    line-height: 66px;
+    color: var(--dark-gray);
+    padding-bottom: 20px;
+}
+
+.text p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+    color: var(--dark-gray-2);
+}
+
+.ofertas {
+    padding: 10px 50px;
+}
+
+
+.tenis {
+    max-width: 100%;
+    
+}
+
+.ornamento {
+    position: relative;
+    bottom: 200px;
+}
+
+.slider-navigation {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    transform: translateY(80px);
+    margin-top: auto;
+    right: 46%;
+    bottom: 120px;
+}
+
+.slider-navigation .dot {
+    width: 12px;
+    height: 12px;
+    background-color: var(--light-gray-2);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 300ms ease;
+}
+
+.slider-navigation .dot:not(:last-child) {
+    margin-right: 10px;
+}
+
+.slider-navigation .dot:hover {
+    transform: scale(1.2);
+    background-color: var(--primary);
 }
