@@ -564,3 +564,99 @@ main section .contai .texto button{
     cursor: pointer;
     border: none;
 }
+
+footer{
+    width: 100%;
+    height: 510px;
+    background-color: #1f1f1f;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+}
+
+footer .um{
+    margin-left: 10px;
+    width: 320px;
+    height: 50%;
+    color: white;
+    position: relative;
+    margin-top: 80px;
+}
+
+footer .titulo{
+    width: 100%;
+    display: flex;
+    justify-content: left
+}
+
+footer .titulo img{
+    width: 8%;
+    height: 8%;
+    margin-right: 10px
+}
+
+footer .um h1 {
+    align-items: center;
+    margin-bottom: 40px;
+    font-size: 28px;
+}
+
+footer .um p {
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+footer .dois, footer .tres {
+    margin-top: 80px;
+    width: 180px;
+    height: 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .dois h2, footer .tres h2, footer .quatro h2 {
+    font-size: 18px;
+    margin-bottom: 40px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px
+}
+
+footer .dois a, footer .tres a {
+    color: white;
+    line-height: 42px;
+    font-size: 18px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 48px;
+}
+
+footer .quatro {
+    margin-top: 80px;
+    width: 200px;
+    height: 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .quatro address, footer .quatro p {
+    width: 80%;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px
+}
+
+footer .direitos {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+}
