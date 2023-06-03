@@ -31,6 +31,7 @@ body {
 }
 
 header {
+    background-color: #fff;
     display: flex;
     flex-direction: column;
 }
@@ -372,5 +373,95 @@ section {
     line-height: 22px;
     align-self: center;
     font-weight: 700;
+    color: var(--dark-gray-2);
+}
+
+#produtos{
+    padding: 50px 104px 100px 104px;
+    background-color: transparent;
+}
+
+#produtos h3{
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#produtos h3 a{
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: .75px;
+    font-weight: normal;
+    color: var(--primary);
+    text-decoration: none;
+}
+
+#produtos ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+#produtos ul li{
+    width: calc(25% - 18px);
+    list-style: none;
+}
+
+#produtos ul li .image{
+    background-color: #FFF;
+    border-radius: 4px;
+    box-shadow: 6px 16px 30px #69626225;
+    overflow: hidden;
+}
+
+#produtos ul li .image img{
+    width: 100%;
+    display: block;
+    padding: 0 16px;
+    position: relative;
+    margin-top: 41.95px;
+    margin-left: 20.23px;
+    right: 46px;
+    bottom: 39px;
+}
+
+#produtos ul li .image svg{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#produtos ul li .card p{
+    font-style: bold;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    font-size: 12px;
+    color: #8F8F8F;
+}
+
+#produtos ul li .card h4{
+    font-style: normal;
+    color: #474747;
+}
+
+#produtos ul li .card h4 s{
+    color: #8F8F8F;
+    line-height: 131%;
+    text-decoration: line-through;
+    font-weight: 400;
+}
+
+.image h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--dark-gray-2);
+    width: 90px;
+    height: 32px;
+    background: #E7FF86;
+    border-radius: 29px;
+    margin: 20px 0 0 20px;
     color: var(--dark-gray-2);
 }
